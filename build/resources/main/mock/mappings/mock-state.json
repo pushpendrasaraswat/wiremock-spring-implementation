@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/mock-state"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [{"name": "a", "state": "b"}, {"name": "c", "state": "d"}]
+  }
+}

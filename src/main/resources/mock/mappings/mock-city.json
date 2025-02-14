@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/mock-service"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [{"name": "jaipur", "state": "Rajasthan"}, {"name": "pune", "state": "Maharashtra"}]
+  }
+}

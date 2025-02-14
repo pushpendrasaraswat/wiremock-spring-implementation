@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: wiremock
+
+server:
+  port: 8083
+
+
+mock:
+  server:
+    url: http://localhost:8095/mock-service
+
+
+wiremock:
+  enabled: true
+  port: "8095"
+  mocks:
+    path: "src/main/resources/mock/"
